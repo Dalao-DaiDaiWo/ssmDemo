@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.fyh.Dao.IUserDao">
+    <!--resultType指明了返回的值要封装成为的数据类型-->
+    <select id="findAll" resultType="com.fyh.pojo.User">
+        select * from user
+    </select>
+</mapper>
