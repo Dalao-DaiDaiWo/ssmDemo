@@ -14,6 +14,8 @@ public class MybatisTest {
 
     public static void main(String[] args) throws IOException {
         System.out.println("主干添加");
+        System.out.println("dev分支");
+        System.out.println("分支添加");
         /*1.读取配置文件*/
         InputStream is = Resources.getResourceAsStream("mybatis-config.xml");
         /*2.创建SqlSessionFactory工厂*/
